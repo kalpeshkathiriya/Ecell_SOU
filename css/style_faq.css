@@ -1,0 +1,14 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.accordion-header:hover button{
+    background-color:rgb(49, 83, 146);
+    color: white;
+ /* do it for button in the same section    */
+}
+p{
+    color: black;
+}
+h2{
+    color: #101d33;
+}

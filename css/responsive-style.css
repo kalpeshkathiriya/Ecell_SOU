@@ -1,0 +1,140 @@
+@media (max-width:1199px) {
+    /* header */
+    .header_wrapper.navbar-expand-lg.navbar-nav{
+        align-items: center;
+    }
+    .header_wrapper.navbar-expand-lg.navbar-nav.nav-link{
+        padding: 0;
+        font-size: .875rem;
+    }   
+}
+@media (max-width:991px) {
+
+    /* custom css */
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    /* banner wrapper */
+    .banner_wrapper {
+        padding: 200px 0;
+    }
+    parallax span{
+        font-size: 1.3rem;
+        color:rgb(96, 161, 235);
+        text-align: center;
+        font-weight: 700;
+         letter-spacing: 0.2rem;
+      }
+  
+      #bg h1{
+  
+  
+  
+    text-align: center;
+          z-index: 10;
+          color: rgb(255, 255, 255);
+         font-size: 1.8rem;
+         letter-spacing: 0.6rem;
+  
+      }
+  
+      #bg h4{
+  
+          z-index: 10;
+          color: rgb(255, 255, 255);
+         font-size: 1.1rem;
+  
+      } */
+  
+
+    /* About */
+    /* .about_wrapper ul.nav-pills{
+        width:61%;
+        margin:auto;
+
+    } */
+
+    /* footer */
+    .footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    /* About */
+    /* .about_wrapper ul.nav-pills{
+        width:100%;
+        margin:auto;
+        border:0;
+    } */
+    /* .about_wrapper ul li .nav-link {
+        font-size: 13px;
+    }  */
+    .about-section {
+        padding: 75px 1em;
+      }
+    
+      .about-section h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+      }
+    
+      .about-section p {
+        font-size: 15px;
+        line-height: 1.5;
+      }
+    /* footer */
+    .footer-col {
+       width: 50%;
+       margin-bottom: 30px;
+}
+}  
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
